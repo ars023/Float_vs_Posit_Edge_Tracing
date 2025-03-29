@@ -138,7 +138,7 @@ ax.set_ylabel('Y axis')
 ax.set_zlabel('Z axis')
 ax.set_title('Ray and Triangle Intersections with Float32')
 
-# Rotation and axis
+# Rotation and axes
 ax.view_init(elev=30, azim=45)
 
 ax.set_xlim([0.4, 1])
@@ -146,5 +146,5 @@ ax.set_ylim([0, 0.6])
 ax.set_zlim([0.4, 1])
 
 plt.legend()
-ax.view_init(elev=40, azim=45)  # Adjust angles as needed
+ax.view_init(elev=40, azim=45)  # Additional rotation as needed
 plt.show()
